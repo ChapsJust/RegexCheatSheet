@@ -9,4 +9,14 @@ Exemples possibles :
 123.456.7890
 +91 (123) 456-7890
 
+Pour les prénom ou noms composée :
+^[a-z]+[ \-']?[[a-z]+[ \-']?]*[a-z]+$
+Exemples possibles :
+lu
+l-ul
+lu-lu
+lu-l-ul
+l-lu-l
+lu-l
+
 
