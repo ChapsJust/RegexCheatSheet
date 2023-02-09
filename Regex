@@ -1,17 +1,17 @@
 Regex:
 
-Pour les numéro de téléphone:
+//Pour les numéro de téléphone:
 ^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$
-Exemples possibles :
+//Exemples possibles :
 123-456-7890
 (123) 456-7890
 123 456 7890
 123.456.7890
 +91 (123) 456-7890
 
-Pour les prénom ou noms composée :
+//Pour les prénom ou noms composée :
 ^[a-z]+[ \-']?[[a-z]+[ \-']?]*[a-z]+$
-Exemples possibles :
+//Exemples possibles :
 lu
 l-ul
 lu-lu
@@ -19,4 +19,5 @@ lu-l-ul
 l-lu-l
 lu-l
 
-
+//Pour les emails :
+^[\w.+-]{1,64}@([a-zA-Z\d-]{2,252}\.[a-zA-Z\.]{2,6}){5,255}$
